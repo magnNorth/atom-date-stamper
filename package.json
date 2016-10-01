@@ -1,0 +1,24 @@
+{
+  "name": "date-stamper",
+  "main": "./lib/date-stamper",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace":[
+      "date-stamper:toggle",
+      "date-stamper:addDate",
+      "date-stamper:addDateTime",
+      "date-stamper:addTime",
+      "date-stamper:addUnix"
+    ]
+  },
+  "repository": "https://github.com/abyrnedesign/atom-date-stamper",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

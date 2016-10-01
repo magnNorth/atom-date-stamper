@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "date-stamper:toggle",
+    "ctrl-alt-t": "date-stamper:addDate"
+  }
+}

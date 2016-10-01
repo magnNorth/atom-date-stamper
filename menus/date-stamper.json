@@ -1,0 +1,41 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {"type": "separator"},
+      {
+        "label": "Add Date stamp",
+        "command": "date-stamper:addDate"
+      },
+      {
+        "label": "Add Date/time stamp",
+        "command": "date-stamper:addDateTime"
+      },
+      {
+        "label": "Add time stamp",
+        "command": "date-stamper:addTime"
+      },
+      {
+        "label": "Add UNIX stamp",
+        "command": "date-stamper:addUnix"
+      },
+      {"type": "separator"}
+
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "date-stamper",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "date-stamper:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
